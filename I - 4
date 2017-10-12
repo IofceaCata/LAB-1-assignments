@@ -1,0 +1,21 @@
+#include<iostream>
+#include<math.h>
+using namespace std;
+int main(){
+    int a,b,a1=0,b1=0,r;
+    cin>>a>>b;
+    cout<<sqrt(a)<<" "<<sqrt(b)<<" "<<pow(a,b)<<'\n';
+    while(a!=0){
+        r=a%10;
+        a1=a1*10+r;
+        a=a/10;
+    }
+    cout<<a1<<" ";
+    while(b!=0){
+        r=b%10;
+        b1=b1*10+r;
+        b=b/10;
+    }
+    cout<<b1;
+
+}
