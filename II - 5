@@ -1,0 +1,10 @@
+#include<iostream>
+using namespace std;
+int main(){
+    char a[100],b[100];
+    cin.get(a,100);
+    cin.get();
+    cin.get(b,100);
+    for(int i=1;i<=10;i++)
+        cout<<a<<" "<<b<<'\n';
+}
